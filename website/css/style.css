@@ -41,20 +41,59 @@ button#main-btn {
     background-color: transparent !important;
 }
 
+/* --- ASCII DOTS --- */
+.child_dots {
+    font-size: 100px;         
+    line-height: .5;
+    letter-spacing: 10px;
+    padding-left: 0;
+}
+
 /* --- SVG CSS --- */
 
 .svg-dot:hover {
     opacity: 0.75;
 }
 
-/* Parent Dominant Emotion Dot */
+
+/* Distributed Dots */
+
+text {
+    fill: #FFFFFF;
+}
+
+/* TEMPORARY COLORING */
+svg g #distribute-dot-1 {
+    fill: #534265;
+}
+
+svg g #distribute-dot-2 {
+    fill: #fffa54;
+}
+
+svg g #distribute-dot-3 {
+    fill: #b68771;
+}
+
+svg #dom-emo {
+    fill: #fffa54;
+}
+
+
+/* TEMPORARY COLORING */
+svg #big-dot {
+    fill: #ba7c93;
+}
+
 svg g #big-dot {
-    width: 30%;
+    width: 40%;
 }
 
 svg g #dom-emo {
     width: 40%;
 }
+
+/* TEMPORARY -- DELETE LATER */
 
 /* Mood Distribution Dot */
 .distributed-dot {
