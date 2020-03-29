@@ -17,7 +17,7 @@ a:visited {
     opacity: 0.6;
 }
 
-a#logo {
+a#logo, a#dot {
     opacity: 1.0;
 }
 
@@ -39,4 +39,36 @@ button#main-btn {
 
 .jumbotron {
     background-color: transparent !important;
+}
+
+/* --- SVG CSS --- */
+
+.svg-dot:hover {
+    opacity: 0.75;
+}
+
+/* Parent Dominant Emotion Dot */
+svg g #big-dot {
+    width: 30%;
+}
+
+svg g #dom-emo {
+    width: 40%;
+}
+
+/* Mood Distribution Dot */
+.distributed-dot {
+    width: 50%;
+}
+
+svg text {
+    display: none;
+}
+
+svg g:hover circle {
+    opacity: 0.75;
+}
+
+svg g:hover text {
+    display: block;
 }
